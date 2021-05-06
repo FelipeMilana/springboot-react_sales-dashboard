@@ -17,6 +17,8 @@ import com.cursos.salesdashboard.entities.dto.SaleSuccessDTO;
 import com.cursos.salesdashboard.entities.dto.SaleSumDTO;
 import com.cursos.salesdashboard.services.SaleService;
 
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 @RequestMapping(value = "/sales")
 public class SaleController {
@@ -25,6 +27,7 @@ public class SaleController {
 	private SaleService service;
 	
 	@GetMapping
+	@ApiOperation(value = "buscar todas as vendas")
 	public ResponseEntity<Page<SaleDTO>> findAll(@PageableDefault(page = 0, 
 																  size = 10, 
 																  sort = "id", 
@@ -34,12 +37,14 @@ public class SaleController {
 	}
 	
 	@GetMapping(value = "/amount-by-seller")
+	@ApiOperation(value = "Buscar o total de valores vendidos por cada cliente")
 	public ResponseEntity<List<SaleSumDTO>> amountGroupedBySeller() {
 		List<SaleSumDTO> list = service.amountGroupedBySeller();
 		return ResponseEntity.ok().body(list);
 	}
 	
 	@GetMapping(value = "/success-by-seller")
+	@ApiOperation(value = "buscar a taxa de sucesso de cada cliente")
 	public ResponseEntity<List<SaleSuccessDTO>> successGroupedBySeller() {
 		List<SaleSuccessDTO> list = service.successGroupedBySeller();
 		return ResponseEntity.ok().body(list);
