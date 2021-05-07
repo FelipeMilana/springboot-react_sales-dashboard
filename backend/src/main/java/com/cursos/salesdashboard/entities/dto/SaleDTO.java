@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.cursos.salesdashboard.entities.Sale;
-import com.fasterxml.jackson.annotation.JsonFormat;
 
 public class SaleDTO implements Serializable{
 
@@ -14,7 +13,6 @@ public class SaleDTO implements Serializable{
 	private Integer visited;
 	private Integer deals;
 	private Double amount;
-	@JsonFormat(pattern = "dd/MM/yyy")
 	private LocalDate date;
 	//association
 	private SellerDTO seller;
