@@ -6,9 +6,9 @@
 
 https://springreact-salesdashboard.netlify.app
 
-Este projeto foi desenvolvido durante a **3ª Semana Spring React** (#sds3), organizada pela [DevSuperior] (https://devsuperior.com). 
+Este projeto full stack web, foi desenvolvido durante a **3ª Semana Spring React** (#sds3), organizada pela [DevSuperior] (https://devsuperior.com). 
 
-O projeto consiste em um site de vendas, no qual o usuário pode vizualizar em uma tabela as vendas e seus dados, além de poder ver por meio de gráficos alguns dados específicos.
+O projeto consiste em um site de vendas, no qual o usuário pode vizualizar as vendas realizadas em uma tabela paginada, e por meio de gráficos dinâmicos, vizualizar a taxa de sucesso e o total de vendas de cada vendendor em porcentagem.
 
 ## Layout Web
 ![WEB 1](https://github.com/FelipeMilana/Assets/blob/main/salesdashboard%231.png)
