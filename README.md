@@ -4,11 +4,11 @@
 
 # Sobre o projeto
 
-https://springreact-salesdashboard.netlify.app
-
-Este projeto full stack web, foi desenvolvido durante a **3ª Semana Spring React** (#sds3), organizada pela [DevSuperior] (https://devsuperior.com). 
+Este projeto Full Stack web, foi desenvolvido durante a **3ª Semana Spring React** (#sds3), organizada pela [DevSuperior] (https://devsuperior.com). 
 
 O projeto consiste em um site de vendas, no qual o usuário pode vizualizar as vendas realizadas em uma tabela paginada, e por meio de gráficos dinâmicos, vizualizar a taxa de sucesso e o total de vendas de cada vendendor em porcentagem.
+
+Para acessar: https://springreact-salesdashboard.netlify.app
 
 ## Layout Web
 ![WEB 1](https://github.com/FelipeMilana/Assets/blob/main/salesdashboard%231.png)
@@ -50,4 +50,4 @@ O projeto consiste em um site de vendas, no qual o usuário pode vizualizar as v
 
 Felipe Milana
 
-https://www.linkedin.com/in/felipemilana
+[![NPM](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipemilana) 
